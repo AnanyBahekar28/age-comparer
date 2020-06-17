@@ -12,8 +12,10 @@ elif age_2 > age_1 and age_2 > age_3:
         print("1, User 2\n2. User 1\n3. User 3")
     else:
         print("1. User 2\n2. User 3\n3. User 1")
-else:
+elif age_3 > age_1 and age_3> age_2:
     if age_1 > age_2:
         print("1, User 3\n2. User 1\n3. User 2")
     else:
         print("1. User 3\n2. User 2\n3. User 1")
+else:
+    print("Ages are equal.")
